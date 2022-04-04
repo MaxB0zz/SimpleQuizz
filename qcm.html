@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="qcm.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="qcm.css">
+    <title>Un mini QCM</title>
+</head>
+<body>
+    <main>
+        <p id="tests"></p>
+        <h3 id="question_title"></h3>
+        <h4 id="question"></h4>
+        <form>
+            <input type="checkbox" id="butt1" name="butt1" value="1">
+            <label for="butt1" id="buttx"></label><br>
+            <input type="checkbox" id="butt2" name="butt2" value="2">
+            <label for="butt2" id="butty"></label><br>
+            <input type="checkbox" id="butt3" name="butt3" value="3">
+            <label for="butt3" id="buttz"></label><br>
+            <input type="button" value="submit" onclick="verify()">
+        </form>
+        <div id="reponse"></div> <!--emplacement de la reponse-->
+        <button onclick="reset()">reset</button>
+    </main>
+</body>
+</html>

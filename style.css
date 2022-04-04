@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+main {
+    background-color: darkgrey;
+}
+
+.middle:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 200px;
+}
+#chats {
+    height: 150px;
+    overflow-y: scroll;
+    scrollbar-color: #f2f2f2;
+    scrollbar-width: fin;
+}
+@media screen and (max-width: 1000px) {
+    .middle {
+        width: 100%;
+    }
+    main {
+        background-color: azure;
+    }
+}
+
+.chats {
+    background-color: aquamarine;
+}
+
